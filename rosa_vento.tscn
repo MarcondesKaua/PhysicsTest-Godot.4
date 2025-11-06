@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://brmjuy3csmuiv"]
+
+[ext_resource type="Texture2D" uid="uid://bjwb2k268inel" path="res://assets/Cenario/rose.png" id="1_n7m6d"]
+[ext_resource type="Script" uid="uid://dicvep6sknf2c" path="res://texture_rect.gd" id="2_p7b15"]
+
+[node name="RosaVento" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer" groups=["rosa_vento"]]
+texture_filter = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -263.0
+offset_top = -50.0
+offset_right = 45.0
+offset_bottom = 260.0
+grow_horizontal = 0
+texture = ExtResource("1_n7m6d")
+expand_mode = 1
+script = ExtResource("2_p7b15")
